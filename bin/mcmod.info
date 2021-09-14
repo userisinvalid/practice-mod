@@ -1,0 +1,15 @@
+[
+{
+  "modid": "varmod",
+  "name": "var's practice mod",
+  "description": "this is trash dont use it",
+  "version": "0.1",
+  "mcversion": "1.7.10",
+  "url": "to do",
+  "updateUrl": "",
+  "authorList": ["var"],
+  "logoFile": "./logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
