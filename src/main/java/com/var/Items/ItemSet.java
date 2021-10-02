@@ -17,7 +17,7 @@ public class ItemSet {
 	public static void start() {
 		penis = new penis(20, 1.0f, true)
 				.setUnlocalizedName("penis")
-				.setTextureName(main.define.id + "penis")
+				.setTextureName(main.id + "penis")
 				.setCreativeTab(main.memes);
 		load(penis);
 	}

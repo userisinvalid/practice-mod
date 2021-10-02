@@ -6,6 +6,8 @@ import com.var.Crafting;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
@@ -16,10 +18,7 @@ import net.minecraft.item.ItemStack;
 
 @Mod(modid="varmod", name="var's test mod", version="0.1")
 public class main {
-	
-	public class define {
-		public static final String id = "varmod:";
-	}
+	public static final String id = "varmod:";
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
@@ -30,12 +29,12 @@ public class main {
 	}
 	
 	@EventHandler
-	public void Init(FMLPreInitializationEvent event) {
+	public void Init(FMLInitializationEvent event) {
 		// iunno
 	}
 	
 	@EventHandler
-	public void postInit(FMLPreInitializationEvent event) {
+	public void postInit(FMLPostInitializationEvent event) {
 		
 	}
 	

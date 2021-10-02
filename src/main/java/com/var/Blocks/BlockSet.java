@@ -25,12 +25,12 @@ public class BlockSet {
 	public static void start() {
 		cube = new BlockGen(Material.wood)
 				.setBlockName("nerdcubed")
-				.setBlockTextureName(main.define.id + "nerdcubed");
+				.setBlockTextureName(main.id + "nerdcubed");
 		load(cube, true);
 		
 		jerma = new BlockGen(Material.wood)
 				.setBlockName("jerma")
-				.setBlockTextureName(main.define.id + "jerma");
+				.setBlockTextureName(main.id + "jerma");
 		load(jerma, true);
 	}
 }
